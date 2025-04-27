@@ -8,6 +8,7 @@ import Blog from "@/Components/Blog.Components";
 import Footer from "@/Components/Footer.Components";
 import ContactPage from "@/Components/Contact.Component";
 import Resume from "@/Resume/Page";
+import "./globals.css";
 
 const Page = () => {
   return (
