@@ -1,7 +1,7 @@
-
-@tailwind base;
+@import "tailwindcss";
+/* @tailwind base;
 @tailwind components;
-@tailwind utilities;
+@tailwind utilities; */
 
 
 /* Global CSS file (App.css or similar) */
@@ -22,7 +22,7 @@
   }
 
   html {
-    @apply scroll-smooth;
+    scroll-behavior: smooth;
     scroll-padding-top: 60px; /* Adjust this if your navbar height changes */
   
     /* Special Effects */

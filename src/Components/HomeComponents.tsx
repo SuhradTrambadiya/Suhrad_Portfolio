@@ -56,7 +56,7 @@ const Home = () => {
   return (
     <section
       id="Home"
-      className="pt-5 md:pt-0 flex flex-col md:flex-row items-center justify-center min-h-screen px-8 md:px-16 bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white"
+      className="pt-5 md:py-20 md:pt-24 flex flex-col md:flex-row items-center justify-center min-h-screen px-8 md:px-16 bg-gradient-to-br from-gray-900 via-gray-800 to-black text-white"
     >
       {/* Left Content */}
       <div className="text-left space-y-6 flex flex-col items-center md:items-start md:max-w-lg">
@@ -135,7 +135,7 @@ const Home = () => {
 
       {/* Profile Image */}
       <div className="md:w-1/2 flex justify-center mt-12 md:mt-0 relative">
-        <div className="absolute inset-0 bg-gradient-to-r from-orange-400 to-transparent rounded-full blur-2xl opacity-30 animate-pulse"></div>
+        <div className="absolute  rounded-full blur-2xl opacity-10 animate-pulse"></div>
         <Image
           src="/aa.png"
           alt="Suhrad Trambadiya Avatar"
